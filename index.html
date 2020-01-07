@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- group of eyes -->
     <div class="eyes">
+        <!-- left side eye -->
         <div class="eye">
             <div class="ball">
                 
             </div>
         </div>
-        
+        <!-- right side eye -->
         <div class="eye">
             <div class="ball">
                 
@@ -22,6 +24,7 @@
         </div>
     </div>
     <script>
+    //  mathemeical calculations
         var balls = document.getElementsByClassName("ball");
         document.onmousemove = function(){
             var x = event.clientX * 100 / window.innerWidth + "%";
